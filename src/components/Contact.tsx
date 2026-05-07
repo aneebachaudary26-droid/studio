@@ -67,10 +67,10 @@ export function Contact() {
 
               <div className="flex items-center space-x-4">
                 <Button size="icon" variant="outline" className="rounded-full" asChild>
-                  <a href={p.socialLinks.linkedin} target="_blank"><Linkedin className="h-5 w-5" /></a>
+                  <a href={p.socialLinks.linkedin} target="_blank" rel="noopener noreferrer"><Linkedin className="h-5 w-5" /></a>
                 </Button>
                 <Button size="icon" variant="outline" className="rounded-full" asChild>
-                  <a href={p.socialLinks.github} target="_blank"><Github className="h-5 w-5" /></a>
+                  <a href={p.socialLinks.github} target="_blank" rel="noopener noreferrer"><Github className="h-5 w-5" /></a>
                 </Button>
               </div>
             </div>

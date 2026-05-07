@@ -21,7 +21,7 @@ export function Publications() {
             </p>
           </div>
           <Button variant="outline" className="rounded-full" asChild>
-            <a href={content.personal.socialLinks.googleScholar} target="_blank">
+            <a href={content.personal.socialLinks.googleScholar} target="_blank" rel="noopener noreferrer">
               Google Scholar Profile <ExternalLink className="ml-2 h-4 w-4" />
             </a>
           </Button>
@@ -58,7 +58,7 @@ export function Publications() {
                   
                   <div className="flex items-center gap-4">
                     <Button variant="link" size="sm" className="p-0 h-auto text-accent" asChild>
-                      <a href={`https://doi.org/${pub.doi}`} target="_blank">View DOI <ExternalLink className="ml-2 h-3 w-3" /></a>
+                      <a href={`https://doi.org/${pub.doi}`} target="_blank" rel="noopener noreferrer">View DOI <ExternalLink className="ml-2 h-3 w-3" /></a>
                     </Button>
                   </div>
                 </div>

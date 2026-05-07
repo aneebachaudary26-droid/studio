@@ -9,10 +9,11 @@ import content from "@/data/siteContent.json";
 
 export function Hero() {
   const p = content.personal;
+  const showAnimations = content.siteSettings.showAnimations;
 
   return (
     <section className="relative min-h-screen flex items-center scientific-grid overflow-hidden">
-      <AnimatedBackground />
+      {showAnimations && <AnimatedBackground />}
       <div className="container mx-auto px-6 py-24">
         <div className="max-w-4xl">
           <motion.div
@@ -21,7 +22,7 @@ export function Hero() {
             transition={{ duration: 0.6 }}
           >
             <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-accent/10 text-accent text-sm font-medium border border-accent/20 mb-6">
-              <div className="w-2 h-2 rounded-full bg-accent animate-pulse" />
+              <div className={showAnimations ? "w-2 h-2 rounded-full bg-accent animate-pulse" : "w-2 h-2 rounded-full bg-accent"} />
               <span>{p.location}</span>
             </div>
             
@@ -50,10 +51,10 @@ export function Hero() {
               
               <div className="flex items-center space-x-2 ml-2">
                 <Button size="icon" variant="ghost" className="rounded-full hover:bg-accent/10" asChild>
-                  <a href={p.socialLinks.linkedin} target="_blank"><Linkedin className="h-5 w-5" /></a>
+                  <a href={p.socialLinks.linkedin} target="_blank" rel="noopener noreferrer"><Linkedin className="h-5 w-5" /></a>
                 </Button>
                 <Button size="icon" variant="ghost" className="rounded-full hover:bg-accent/10" asChild>
-                  <a href={p.socialLinks.googleScholar} target="_blank"><GraduationCap className="h-5 w-5" /></a>
+                  <a href={p.socialLinks.googleScholar} target="_blank" rel="noopener noreferrer"><GraduationCap className="h-5 w-5" /></a>
                 </Button>
                 <Button size="icon" variant="ghost" className="rounded-full hover:bg-accent/10" asChild>
                   <a href={`mailto:${p.email}`}><Mail className="h-5 w-5" /></a>
@@ -64,7 +65,7 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="absolute bottom-12 left-1/2 -translate-x-1/2 animate-bounce opacity-40">
+      <div className={showAnimations ? "absolute bottom-12 left-1/2 -translate-x-1/2 animate-bounce opacity-40" : "absolute bottom-12 left-1/2 -translate-x-1/2 opacity-40"}>
         <div className="w-0.5 h-12 bg-foreground rounded-full" />
       </div>
     </section>

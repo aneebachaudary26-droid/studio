@@ -5,7 +5,7 @@
     "defaultTheme": "dark",
     "enableDarkMode": true,
     "accentColor": "teal",
-    "showAnimations": true
+    "showAnimations": false
   },
   "seo": {
     "title": "Aneeba Chaudary | Materials Scientist & Ph.D. Candidate",
@@ -31,7 +31,7 @@
     "phone": "+1 (515) 916-3542",
     "summary": "Ph.D. Candidate at Iowa State University specializing in water-borne polymer formulations, functional coatings, and surface engineering. Bridging the gap between fundamental polymer science and industrial textile finishing.",
     "cvUrl": "/Aneeba_Chaudary_CV.pdf",
-    "profileImage": "https://picsum.photos/seed/aneeba/600/600",
+    "profileImage": "/images/profile.jpeg",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/aneebachaudary",
       "googleScholar": "https://scholar.google.com/",

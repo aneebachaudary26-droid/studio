@@ -22,7 +22,6 @@ export function Navbar() {
   const navItems = [
     { name: "About", href: "#about" },
     { name: "Research", href: "#research" },
-    { name: "Projects", href: "#projects" },
     { name: "Publications", href: "#publications" },
     { name: "Experience", href: "#experience" },
     { name: "Contact", href: "#contact" },

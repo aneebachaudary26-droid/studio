@@ -6,6 +6,8 @@ import Image from "next/image";
 import content from "@/data/siteContent.json";
 
 export function About() {
+  const showAnimations = content.siteSettings.showAnimations;
+
   return (
     <section id="about" className="py-24 bg-card/30">
       <div className="container mx-auto px-6">
@@ -27,9 +29,12 @@ export function About() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent" />
             </div>
-            {/* Scientific Decorative Elements */}
-            <div className="absolute -top-10 -left-10 w-40 h-40 border-2 border-accent/20 rounded-full animate-spin-slow -z-0" />
-            <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/10 rounded-full blur-2xl" />
+            {showAnimations && (
+              <>
+                <div className="absolute -top-10 -left-10 w-40 h-40 border-2 border-accent/20 rounded-full animate-spin-slow -z-0" />
+                <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/10 rounded-full blur-2xl" />
+              </>
+            )}
           </motion.div>
 
           <motion.div
