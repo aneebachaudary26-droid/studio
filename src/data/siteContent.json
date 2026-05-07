@@ -1,0 +1,198 @@
+
+{
+  "siteSettings": {
+    "siteName": "Aneeba Chaudary",
+    "defaultTheme": "dark",
+    "enableDarkMode": true,
+    "accentColor": "teal",
+    "showAnimations": true
+  },
+  "seo": {
+    "title": "Aneeba Chaudary | Materials Scientist & Ph.D. Candidate",
+    "description": "Portfolio of Aneeba Chaudary, specializing in functional coatings, polymer formulations, and surface engineering at Iowa State University.",
+    "keywords": [
+      "Materials Science",
+      "Functional Coatings",
+      "Polymer Formulations",
+      "Nanomaterials",
+      "Surface Engineering",
+      "Textile Engineering",
+      "Omniphobic Coatings"
+    ]
+  },
+  "personal": {
+    "name": "Aneeba Chaudary",
+    "firstName": "Aneeba",
+    "lastName": "Chaudary",
+    "title": "Ph.D. Candidate in Materials Science & Engineering",
+    "tagline": "Functional Coatings | Polymer Formulations | Materials Engineering",
+    "location": "Ames, Iowa, USA",
+    "email": "Chaudary@iastate.edu",
+    "phone": "+1 (515) 916-3542",
+    "summary": "Ph.D. Candidate at Iowa State University specializing in water-borne polymer formulations, functional coatings, and surface engineering. Bridging the gap between fundamental polymer science and industrial textile finishing.",
+    "cvUrl": "/Aneeba_Chaudary_CV.pdf",
+    "profileImage": "https://picsum.photos/seed/aneeba/600/600",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/aneebachaudary",
+      "googleScholar": "https://scholar.google.com/",
+      "github": "https://github.com/",
+      "orcid": "https://orcid.org/",
+      "researchGate": "https://researchgate.net/"
+    }
+  },
+  "sections": {
+    "hero": true,
+    "about": true,
+    "researchFocus": true,
+    "projects": true,
+    "timeline": true,
+    "publications": true,
+    "experience": true,
+    "education": true,
+    "skills": true,
+    "awards": true,
+    "contact": true
+  },
+  "about": {
+    "heading": "The Journey of a Materials Architect",
+    "body": "My journey in materials science began with a fascination for how invisible molecular structures dictate the behavior of everything we touch. As a Ph.D. candidate at Iowa State University, I have focused my research on the intricate intersection of polymer chemistry and surface engineering. My work involves designing next-generation functional coatings—specifically water-borne formulations—that are not only high-performing but also environmentally sustainable. From optimizing PFAS-free omniphobic textiles to engineering Janus nanoparticles for selective surface modification, my goal is to translate complex chemical principles into scalable industrial solutions. I see myself as an architect of surfaces, meticulously crafting layers that provide protection, functionality, and longevity to the materials of the future."
+  },
+  "researchFocus": [
+    {
+      "title": "Water-borne Formulations",
+      "description": "Developing sustainable, solvent-free polymer systems for high-performance coatings.",
+      "icon": "Droplets"
+    },
+    {
+      "title": "Functional Coatings",
+      "description": "Engineering surfaces for omniphobicity, anti-fouling, and thermal regulation.",
+      "icon": "Layers"
+    },
+    {
+      "title": "Nanomaterials",
+      "description": "Integrating Janus nanoparticles and nanocellulose to enhance material properties.",
+      "icon": "Microscope"
+    },
+    {
+      "title": "Surface Engineering",
+      "description": "Wet-chemistry based modification to tailor interface interactions.",
+      "icon": "Atom"
+    }
+  ],
+  "projects": [
+    {
+      "title": "PFAS-Free Omniphobic Coatings",
+      "category": "Sustainability",
+      "problem": "Traditional textile coatings rely on harmful PFAS chemicals for oil and water repellency.",
+      "methods": "Sol-gel processing and water-borne acrylic binder integration.",
+      "outcomes": "Achieved grade 6 oil repellency without fluorinated compounds.",
+      "tools": ["Contact Angle Goniometry", "XPS", "SEM"],
+      "tags": ["PFAS-free", "Textiles", "Surface Engineering"]
+    },
+    {
+      "title": "Janus Nanoparticle Integration",
+      "category": "Nanotechnology",
+      "problem": "Poor dispersion of nanoparticles in polymer matrices leading to localized failures.",
+      "methods": "Pickering emulsion polymerization to create amphiphilic Janus particles.",
+      "outcomes": "Enhanced mechanical durability by 40% through improved interfacial bonding.",
+      "tools": ["TEM", "DLS", "Rheometer"],
+      "tags": ["Janus Particles", "Pickering Emulsion", "Coatings"]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2023 - Present",
+      "role": "Ph.D. Candidate",
+      "institution": "Iowa State University",
+      "description": "Focusing on advanced functional coatings and sustainable materials R&D."
+    },
+    {
+      "year": "2022",
+      "role": "Research Intern",
+      "institution": "Janas Materials Inc.",
+      "description": "Assisted in scaling up water-borne acrylic formulations for industrial trials."
+    },
+    {
+      "year": "2019 - 2023",
+      "role": "M.Phil. Researcher",
+      "institution": "Donghua University",
+      "description": "Specialized in textile engineering and surface modification techniques."
+    }
+  ],
+  "publications": [
+    {
+      "title": "Scalable Synthesis of Water-Borne Omniphobic Coatings",
+      "authors": "Chaudary, A., et al.",
+      "journal": "Journal of Materials Science",
+      "year": 2024,
+      "doi": "10.1007/s10853-024-xxxxx",
+      "type": "Journal Article",
+      "featured": true
+    },
+    {
+      "title": "Review: PFAS Alternatives in Textile Finishing",
+      "authors": "Chaudary, A.",
+      "journal": "Advanced Functional Materials",
+      "year": 2023,
+      "doi": "10.1002/adfm.2023xxxxx",
+      "type": "Review",
+      "featured": false
+    }
+  ],
+  "experience": [
+    {
+      "role": "Graduate Researcher",
+      "organization": "Iowa State University",
+      "period": "2023 - Present",
+      "description": "Designing functional coatings for sustainable materials innovation.",
+      "achievements": [
+        "Developed a novel water-borne formulation for textile finishing.",
+        "Characterized nanoparticle-matrix interactions using advanced SEM/TEM techniques."
+      ]
+    },
+    {
+      "role": "Assistant Manager Production",
+      "organization": "Masood Textile Mills",
+      "period": "2017 - 2019",
+      "description": "Managed production lines for high-volume textile processing.",
+      "achievements": [
+        "Optimized processing parameters, reducing chemical waste by 15%.",
+        "Led a team of 20 technicians in wet-processing department."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D. Materials Science & Engineering",
+      "school": "Iowa State University",
+      "year": "Expected 2027"
+    },
+    {
+      "degree": "M.Phil. Textile Engineering",
+      "school": "Donghua University",
+      "year": "2019 - 2023"
+    },
+    {
+      "degree": "B.Sc. Textile Science & Technology",
+      "school": "University of Agriculture Faisalabad",
+      "year": "2013 - 2017"
+    }
+  ],
+  "skills": {
+    "Technical": ["Polymer Science", "Surface Engineering", "Wet Chemistry", "Nanomaterials", "Textile Finishing"],
+    "Characterization": ["SEM", "TEM", "FTIR", "XPS", "Contact Angle", "Mechanical Testing"],
+    "Soft Skills": ["Project Management", "Cross-functional Collaboration", "Scientific Writing", "R&D Strategy"]
+  },
+  "awards": [
+    {
+      "title": "Materials Science Research Excellence Award",
+      "year": "2024",
+      "issuer": "Iowa State University"
+    },
+    {
+      "title": "Best Presentation - International Textile Conference",
+      "year": "2022",
+      "issuer": "Donghua University"
+    }
+  ]
+}

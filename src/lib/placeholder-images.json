@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "profile",
+      "description": "Professional headshot of a materials scientist",
+      "imageUrl": "https://picsum.photos/seed/aneeba/600/600",
+      "imageHint": "professional scientist"
+    },
+    {
+      "id": "research-bg",
+      "description": "Abstract polymer chain visualization",
+      "imageUrl": "https://picsum.photos/seed/polymer/1200/800",
+      "imageHint": "molecular structure"
+    },
+    {
+      "id": "lab-1",
+      "description": "Laboratory equipment for polymer testing",
+      "imageUrl": "https://picsum.photos/seed/lab1/800/600",
+      "imageHint": "chemistry laboratory"
+    },
+    {
+      "id": "lab-2",
+      "description": "Scanning electron microscope output",
+      "imageUrl": "https://picsum.photos/seed/lab2/800/600",
+      "imageHint": "microscope imagery"
+    }
+  ]
 }
